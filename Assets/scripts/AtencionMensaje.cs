@@ -20,7 +20,7 @@ public class AtencionMensaje : MonoBehaviour
     {
         
 
-        if (Input.GetKeyDown(KeyCode.E) && mensajeActivo)
+        if (Input.GetKeyDown(KeyCode.Escape) && mensajeActivo)
         {
             desactivarMensaje();
             mensajeActivo = false;
