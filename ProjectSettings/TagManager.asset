@@ -9,6 +9,10 @@ TagManager:
   - final
   - obstaculo
   - kill
+  - enemigo
+  - suelo
+  - advertencia
+  - mensaje salto
   layers:
   - Default
   - TransparentFX
